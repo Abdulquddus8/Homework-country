@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://global-css-git.netlify.app/css/col.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/col.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="header" class="site-header">
+    <div class="container">
+      <div class="row middle between">
+        <h2 class="logo-heading">Where in the world?</h2>
+        <button class="light-dark" id="modeBtn">Dark Mode</button>
+      </div>
+    </div>
+  </header>
+  <div class="site-main">
+    <div class="container">
+      <div class="row middle between">
+        <div class="input-search row middle">
+          <i class='bx bx-search-alt-2'></i>
+          <input type="text" name="search" placeholder="Search for a country…">
+        </div>
+        <select id="site-select">
+          <option value="0">Filter by Region</option>
+          <option value="1">Africa</option>
+          <option value="2">America</option>
+          <option value="3">Asia</option>
+          <option value="4">Europe</option>
+          <option value="5">Oceania</option>
+        </select>
+      </div>
+      <div class="countries">
+        <div class="container">
+          <ul class="countires-list row between">
+            <li class="countries-item"><a href="#">
+                <div class="coun-img">
+                  <img src="imgs/germany.svg" alt="germany" width="267" height="160">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Germany</h3>
+                  <p class="count-text">Population: <span class="count-span">81,770,900</span></p>
+                  <p class="count-text">Region: <span class="count-span">Europe</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Berlin</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/usa.svg" alt="usa" width="303" height="160">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">United States of America</h3>
+                  <p class="count-text">Population: <span class="count-span">323,947,000</span></p>
+                  <p class="count-text">Region: : <span class="count-span">Americas</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Washington, D.C.</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/brazil.svg" alt="Brazil" width="264" height="183">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Brazil</h3>
+                  <p class="count-text">Population: <span class="count-span">206,135,893</span></p>
+                  <p class="count-text">Region: <span class="count-span">Americas</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Brasília</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/iceland.svg" alt="iceland" width="264" height="190">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Iceland</h3>
+                  <p class="count-text">Population: <span class="count-span">334,300</span></p>
+                  <p class="count-text">Region: <span class="count-span">Europe</span></p>
+                  <p class="count-text">Capital: <span class="count-span"> Reykjavík</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/afgh.svg" alt="afgh" width="265" height="176">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Afghanistan</h3>
+                  <p class="count-text">Population: <span class="count-span">27,657,145</span></p>
+                  <p class="count-text">Region: <span class="count-span">Asia</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Kabul</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/aland.svg" alt="aland" width="265" height="176">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Åland Islands</h3>
+                  <p class="count-text">Population: <span class="count-span">28,875</span></p>
+                  <p class="count-text">Region: <span class="count-span">Europe</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Mariehamn</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/albania.svg" alt="albania" width="264" height="188">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Albania</h3>
+                  <p class="count-text">Population: <span class="count-span">2,886,026</span></p>
+                  <p class="count-text">Region: <span class="count-span">Europe</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Tirana</span></p>
+                </div>
+              </a>
+            </li>
+            <li class="countries-item"><a href="#">
+                <div class="count-img">
+                  <img src="imgs/algeria.svg" alt="albania" width="264" height="188">
+                </div>
+                <div class="count-info">
+                  <h3 class="count-title">Algeria</h3>
+                  <p class="count-text">Population: <span class="count-span">40,400,000</span></p>
+                  <p class="count-text">Region: <span class="count-span">Africa</span></p>
+                  <p class="count-text">Capital: <span class="count-span">Algiers</span></p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
